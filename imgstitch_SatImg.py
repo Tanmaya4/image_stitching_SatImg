@@ -36,7 +36,7 @@ def load_images(image_dir):
     return images
 
 def main():
-    image_dir = r'C:\Users\TANMAYA\Downloads\Udemy CV\Satellite-image-stitcher\images-data'
+    image_dir = r'IMAGE_PATH'
 
     if not os.path.isdir(image_dir):
         print(f"Error: Directory not found at {image_dir}")
